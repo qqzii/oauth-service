@@ -65,7 +65,7 @@ services:
       - ./frontend:/application
     command: "tail -f /dev/null"
     ports:
-      - "5173:5173"
+      - "5175:5175"
     depends_on:
       - php-fpm
 
